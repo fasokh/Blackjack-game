@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <title>Blackjack Game</title>
+  </head>
+
+  <body class="bg-success p-3">
+    <div>
+      <h1>Blackjack</h1>
+      <p id="message-el">want to play a round?</p>
+      <p class="cards-el">Cards: </p>
+      <p id="sum-el">Sum: </p>
+      <button id="start-el" onclick="startGame()">Start Game</button>
+      <button id="newCardEl" onclick="newCard()">New Card</button>
+      <p id="player-el"></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
